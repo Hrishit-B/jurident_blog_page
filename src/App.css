@@ -89,6 +89,13 @@ nav {
   background: #eeeeee;
 }
 
+.blog-img-main {
+  width: 1116px;
+  height: 599px;
+  margin-left: 12%;
+  background: #eeeeee;
+}
+
 .blog-side-section {
   width: 30%;
 }
@@ -99,4 +106,34 @@ a {
 
 a:hover {
   color: #000000ac;
+}
+
+.custom-scroll-padding {
+  overflow-x: auto;
+  padding-top: 0; /* Add your desired padding value */
+  overflow-x: auto;
+  margin-left: 5px; /* Add your desired margin value */
+}
+
+.custom-gap-4 {
+  margin-left: 1rem;
+}
+
+.border-custom-slate-500 {
+  border-color: #65778b;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.blog-content-main {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+a {
+  text-decoration: none;
 }
